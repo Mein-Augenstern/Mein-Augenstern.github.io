@@ -1,43 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+# 博客标题
+title: MUYI
+# 博客描述
+description: 这里是MUYI的技术博客，分享编程经验、代码技巧、软件项目开发历程和技术学习心得。
+# 你的GitHub用户名
+github_username: Mein-Augenstern
 
-title: Edit _config.yml to set your title!
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: jph00
+# 以下是可选配置部分
 
-# Email and twitter are optional:
-email:
-twitter_username:
-
-# Set this to true to get LaTeX math equation support
-use_math:
-
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
-
-# Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
-
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+# 网站URL（如果有自定义域名），如果没有可以不填
+url: [你的博客网址，如果使用默认的 GitHub Pages 格式则可省略]
+# 关于作者的详细介绍，可以使用多行文本
+author:
+  name: guoyangyang
+  bio: |
+    我是一名热爱编程的软件工程师，热衷于探索新技术，擅长Java开发。在这个博客中，我将分享自己在编程旅程中的点点滴滴，希望能和大家一起进步。
+# 社交账号链接（可选，如果有相关社交账号）
+social:
+  twitter: [你的推特账号，如果有]
+  linkedin: [你的领英账号，如果有]
+  facebook: [你的脸书账号，如果有]
+# 主题相关配置（可根据实际使用的主题调整）
+theme_config:
+  # 导航栏菜单项，可以添加更多链接，比如项目展示、技术分类等
+  nav:
+    - text: "首页"
+      link: "/"
+    - text: "关于我"
+      link: "/about"
+    - text: "文章分类"
+      link: "/categories"
+    - text: "联系我"
+      link: "/contact"
