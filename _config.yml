@@ -9,6 +9,7 @@
 title: MUYI
 description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
 github_username: Mein-Augenstern
+title_centered: true
 
 # Email and twitter are optional:
 email:
