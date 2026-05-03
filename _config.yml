@@ -3,7 +3,7 @@ description: Personal blog for work and learning experience
 
 # Minimal Mistakes theme settings
 # theme: minimal-mistakes-jekyll  # for local development
-remote_theme: "mmistakes/minimal-mistakes-jekyll@4.28.0"
+remote_theme: "mmistakes/minimal-mistakes-jekyll"
 
 # Build settings
 markdown: kramdown
@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude from processing
 exclude:
