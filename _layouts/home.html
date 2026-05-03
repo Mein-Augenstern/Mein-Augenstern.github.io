@@ -33,7 +33,7 @@ body { width: 100%; margin: 0; padding: 0; }
   <div class="hero-text">
     <h1 class="hero-title">Hi, {{ site.author.name }}</h1>
     <p class="hero-bio">{{ site.author.bio }}</p>
-    <div class="hero-links">{% for link in site.author.links %}<a href="{{ link.url }}" title="{{ link.title }}" target="_blank" rel="noopener"><i class="{{ link.icon }}"></i></a>{% endfor %}<a href="mailto:1752726507@qq.com" title="邮箱" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a></div>
+    <div class="hero-links">{% for link in site.author.links %}<a href="{{ link.url }}" title="{{ link.title }}" target="_blank" rel="noopener"><i class="{{ link.icon }}"></i></a>{% endfor %}</div>
   </div>
   <div class="hero-image"><img src="/images/xiaopu_person.jpg" alt="Avatar" class="hero-avatar"></div>
 </div>
