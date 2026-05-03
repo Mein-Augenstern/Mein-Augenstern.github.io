@@ -1,43 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
 title: XIAOPU
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: Mein-Augenstern
+description: Personal blog for work and learning experience
 
-# Email and twitter are optional:
-email:
-twitter_username:
+# Minimal Mistakes theme settings
+theme: minimal-mistakes-jekyll
 
-# Set this to true to get LaTeX math equation support
-use_math:
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
 
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
+# Pagination
+paginate: 10
+paginate_path: /page:num/
 
-# Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-seo-tag
 
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+# Minimal Mistakes settings
+minimal_mistakes_skin: default
+search: true
+
+# Site Author
+author:
+  name: XIAOPU
+  bio: "写代码是热爱，写到世界充满爱！"
+  location: China
+  avatar: /assets/images/avatar.jpg
+  email: 1752726507@qq.com
+  links:
+    - title: GitHub
+      url: https://github.com/Mein-Augenstern
+      icon: fab fa-github
+    - title: 邮箱
+      url: mailto:1752726507@qq.com
+      icon: fas fa-envelope
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Category and tag settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
