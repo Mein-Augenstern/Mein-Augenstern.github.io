@@ -65,7 +65,7 @@ author_profile: true
 </style>
 
 <div class="about-intro">
-  <img src="/assets/images/avatar.jpg" alt="Avatar" onerror="this.style.display='none'">
+  <img src="/images/xiaopu_person.jpg" alt="Avatar" onerror="this.style.display='none'">
   <h1>{{ site.author.name }}</h1>
   <p class="location">📍 {{ site.author.location }}</p>
   <p>{{ site.author.bio }}</p>
@@ -105,8 +105,5 @@ author_profile: true
       <i class="{{ link.icon }}"></i> {{ link.title }}
     </a>
     {% endfor %}
-    <a href="mailto:1752726507@qq.com" title="邮箱" target="_blank">
-      <i class="fas fa-envelope"></i> 邮箱
-    </a>
   </div>
 </div>
