@@ -1,9 +1,9 @@
 ---
+layout: single
 title: "AQS&ReentrantLock"
 categories: Java-并发
 date: 2024-01-20
 ---
-
 ## 看在前面
 
 * <a href="http://www.cnblogs.com/waterystone/p/4920797.html">Java并发之AQS详解</a>

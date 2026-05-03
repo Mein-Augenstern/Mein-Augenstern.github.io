@@ -1,9 +1,9 @@
 ---
+layout: single
 title: "ThreadLocal"
 categories: Java-并发
 date: 2024-01-20
 ---
-
 ThreadLocal简介
 ====
 
