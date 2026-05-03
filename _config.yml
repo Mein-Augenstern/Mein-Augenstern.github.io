@@ -2,7 +2,8 @@ title: XIAOPU
 description: Personal blog for work and learning experience
 
 # Minimal Mistakes theme settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll  # for local only
+remote_theme: "mmistakes/minimal-mistakes-jekyll"
 
 # Build settings
 markdown: kramdown

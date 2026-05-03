@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
   gem "jekyll-seo-tag"
+  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby
