@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Categories"
+title: "文章分类"
 permalink: /categories-list/
 ---
 
@@ -10,7 +10,7 @@ permalink: /categories-list/
 }
 </style>
 
-# Categories
+<h1>文章分类</h1>
 
 {% for category in site.categories %}
 ## {{ category[0] }}
